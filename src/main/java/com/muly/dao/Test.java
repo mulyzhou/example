@@ -17,6 +17,8 @@ public class Test {
     public static void main(String[] args) throws ParseException {
         /*Date date=new Date();//取时间
 
+
+
         SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
         Calendar calendar = new GregorianCalendar();
