@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--指定LOG4J为输出日志-->
+    <!--<settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>-->
+    <!-- 别名 -->
+    <!--<typeAliases>
+        &lt;!&ndash;<typeAlias alias="UserEntity" type="com.manager.data.model.UserEntity" />
+        <typeAlias alias="StudentEntity" type="com.manager.data.model.StudentEntity" />
+        <typeAlias alias="ClassEntity" type="com.manager.data.model.ClassEntity" />&ndash;&gt;
+    </typeAliases>-->
+    <typeAliases>
+        <package name="com.muly.entity"/>
+    </typeAliases>
+</configuration>
