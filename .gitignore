@@ -1,4 +1,4 @@
 target/
 .idea/
-/src/main/webapp/WEB-INF/lib/
 springtest.iml
+src/main/webapp/WEB-INF/static/
