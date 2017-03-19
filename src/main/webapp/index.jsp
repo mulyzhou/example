@@ -1,6 +1,2 @@
-<html>
-<body>
-<h2>Hello World!</h2>
-${user.userName}
-</body>
-</html>
+<%response.sendRedirect("user/login.do"); %>
+

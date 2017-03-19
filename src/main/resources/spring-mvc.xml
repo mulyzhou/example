@@ -44,7 +44,8 @@
 
 
     <!--扫描静态资源-->
-    <mvc:resources mapping="/styles/**" location="/WEB-INF/resource/styles/"/>
+    <!--<mvc:resources mapping="/static/**" location="WEB-INF/static/"/>-->
+
 
     <!-- 定义跳转的文件的前后缀 ，视图模式配置-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
