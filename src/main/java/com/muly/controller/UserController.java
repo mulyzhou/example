@@ -57,4 +57,9 @@ public class UserController {
 
         return "showUserList";
     }
+    //TODO http://localhost:8080/user/login.do
+    @RequestMapping("/login")
+    public String login(){
+        return "base/login";
+    }
 }

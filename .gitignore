@@ -1,5 +1,4 @@
 target/
 .idea/
-/src/main/webapp/WEB-INF/lib/
-/src/main/resources/sql/database.properties
-emanage\.iml
+springtest.iml
+src/main/webapp/WEB-INF/static/
