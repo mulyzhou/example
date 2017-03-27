@@ -42,7 +42,6 @@
     </mvc:interceptors>-->
 
 
-
     <!--扫描静态资源-->
     <mvc:resources mapping="/styles/**" location="/WEB-INF/resource/styles/"/>
 

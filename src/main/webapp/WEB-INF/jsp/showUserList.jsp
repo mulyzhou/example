@@ -27,7 +27,11 @@
        <td>${list.userName}</td>
        <td>${list.password}</td>
        <td>${list.age}</td>
-       <td>${list.info.address}</td>
+       <c:forEach items="" var="info">
+           <td>${info.address}</td>
+       </c:forEach>
+
+
        </tr>
    </c:forEach>
 </tr>

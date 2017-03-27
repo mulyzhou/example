@@ -1,5 +1,7 @@
 package com.muly.entity;
 
+import java.util.List;
+
 public class User {
     private Integer id;
 
@@ -9,14 +11,14 @@ public class User {
 
     private Integer age;
 
-    private Info info;
+    private List<Info> infolist;
 
-    public Info getInfo() {
-        return info;
+    public List<Info> getInfolist() {
+        return infolist;
     }
 
-    public void setInfo(Info info) {
-        this.info = info;
+    public void setInfolist(List<Info> infolist) {
+        this.infolist = infolist;
     }
 
     public Integer getId() {
@@ -58,7 +60,7 @@ public class User {
                 ", userName='" + userName + '\'' +
                 ", password='" + password + '\'' +
                 ", age=" + age +
-                ", info=" + info +
+                ", infolist=" + infolist +
                 '}';
     }
 }

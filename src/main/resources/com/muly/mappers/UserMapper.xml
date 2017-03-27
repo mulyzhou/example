@@ -6,11 +6,16 @@
     <result column="user_name" property="userName" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="VARCHAR" />
     <result column="age" property="age" jdbcType="INTEGER" />
-    <association property="info" javaType="Info">
+    <!--<association property="info" javaType="Info">
+    <id property="infoid" column="infoid"/>
+    <result property="userid" column="userid"/>
+    <result property="address" column="address"/>
+  </association>-->
+    <collection property="infolist" ofType="Info">
       <id property="infoid" column="infoid"/>
       <result property="userid" column="userid"/>
       <result property="address" column="address"/>
-    </association>
+    </collection>
   </resultMap>
   <sql id="Base_Column_List" >
     id, user_name, password, age
